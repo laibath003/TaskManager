@@ -1,0 +1,41 @@
+
+# ==============================
+# Android / Android Studio
+# ==============================
+.gradle/
+**/build/
+local.properties
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+.navigation/
+
+# ==============================
+# Backend / Node.js
+# ==============================
+backend/node_modules/
+backend/.env
+backend/.env.*
+!backend/.env.example
+backend/coverage/
+backend/npm-debug.log*
+backend/yarn-debug.log*
+backend/pnpm-debug.log*
+
+# ==============================
+# Logs and temporary files
+# ==============================
+*.log
+*.tmp
+*.temp
+
+# ==============================
+# Operating system files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
